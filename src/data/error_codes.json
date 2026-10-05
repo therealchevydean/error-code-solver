@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "fix-windows-error-0x80070005",
+    "errorCode": "0x80070005",
+    "software": "Windows 10 / 11",
+    "shortMeaning": "Access Denied / Permission Error",
+    "description": "This error occurs when Windows Update, Microsoft Store, or a user process lacks the required file or registry permissions to perform an action.",
+    "severity": "Medium",
+    "fixes": [
+      "Run the application or installer as an Administrator.",
+      "Check your antivirus software to see if it is blocking the action.",
+      "Run the Windows Update Troubleshooter.",
+      "Reset file permissions using the SubInACL tool."
+    ]
+  }
+]
